@@ -1,9 +1,7 @@
 {
-  "background": {
-      "scripts": ["background.js"]
-  },
   "browser_action": {
     "browser_style": true,
+    "default_icon": "icons/helper-32.png",
     "default_title": "PS Helper",
     "default_popup": "helper.html"
   },
@@ -15,7 +13,8 @@
   "manifest_version": 2,
   "name": "PS Healper",
   "permissions": [
-    "tabs"
+    "tabs",
+    "activeTab"
   ],
   "version": "0.1"
 }
